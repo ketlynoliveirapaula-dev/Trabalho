@@ -3,8 +3,33 @@ padding: 0;}
 
 .cabecalho {
     padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:blueviolet
 }
 .cartao {width: 260px;
        height: 200px;
 }
 .cartao-imagem {width: 100%;}
+
+body {display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+main{flex: 1;
+}
+
+.cartao-interno {position: relative;
+}
+
+.cartao-frente , .cartao-verso {
+    position: absolute;
+border-radius: 12px;
+box-shadow: 0 6px 12px rgba(0, 0, 0,
+0.15)}
+
+.cabecalho-link {color: #fff;
+text-decoration: none 
+}
